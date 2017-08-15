@@ -1,0 +1,27 @@
+{
+  "name": "gql_express_server",
+  "version": "1.0.0",
+  "description": "GraphQL server with Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node server.js",
+    "database": "nodemon --exec babel-node connectors.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "apollo-server-express": "^1.1.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-graphql": "^0.6.7",
+    "graphql": "^0.10.5",
+    "graphql-tools": "^1.1.0",
+    "nodemon": "^1.11.0",
+    "sequelize": "^4.5.0",
+    "sqlite3": "^3.1.9"
+  }
+}
